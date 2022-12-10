@@ -16,7 +16,6 @@ function App() {
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} isLargeRow></Row>
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} isLargeRow></Row>
       <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} isLargeRow></Row>
-      {/* <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} isLargeRow></Row> */}
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} isLargeRow></Row>
       <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} isLargeRow></Row>
     </div>
